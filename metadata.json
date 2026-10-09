@@ -1,0 +1,8 @@
+{
+  "name": "Remix EduGest",
+  "description": "Application de gestion scolaire pour Collège Horizon: notes, bulletins, présence, finances, emploi du temps et messagerie instantanée.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

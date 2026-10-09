@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Conversation": {
+      "path": "conversations/{conversationId}",
+      "fields": {
+        "id": "string",
+        "lastMessage": "string",
+        "updatedAt": "number"
+      }
+    },
+    "Message": {
+      "path": "conversations/{conversationId}/messages/{messageId}",
+      "fields": {
+        "id": "string",
+        "conversationId": "string",
+        "senderId": "string",
+        "senderName": "string",
+        "senderRole": "string",
+        "recipientId": "string",
+        "recipientName": "string",
+        "content": "string",
+        "timestamp": "number",
+        "status": "string"
+      }
+    },
+    "OnlineCourse": {
+      "path": "online_courses/{courseId}",
+      "fields": {
+        "id": "number",
+        "className": "string",
+        "subjectName": "string",
+        "teacherName": "string",
+        "topic": "string",
+        "meetingUrl": "string",
+        "isActive": "boolean",
+        "startedAt": "number"
+      }
+    }
+  }
+}
